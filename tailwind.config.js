@@ -9,6 +9,7 @@ module.exports = {
         primary: '#669295',   
         secondary: '#cfe1e5', 
         accent: '#cfe1e5',  
+        likeblack: '#283737',
       },
     },
   },
