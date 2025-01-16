@@ -16,21 +16,27 @@ const NavBar = () => {
                     <img src={image.logo} alt="Logo" className="lg:w-[6vw] md:w-[8vw] w-[20vw]" />
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex space-x-8">
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                    <div>
+                    <ul className="hidden md:flex space-x-10">
+                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">Home</a>
                         </li>
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">About</a>
                         </li>
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">Services</a>
                         </li>
-                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">Contact</a>
                         </li>
                     </ul>
                 </div>
+
+                </div>
+
+                {/* middle section */}
+
 
                 {/* Right Section */}
                 <div className="flex items-center space-x-4">
