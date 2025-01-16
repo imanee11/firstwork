@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#669295',
-        secondary: '#cfe1e5',
-        accent: '#cfe1e5',
-        likeblack: '#283737',
+        primary: '#483d89',
+        secondary: '#bc8fe5',
+        accent: '#f8f1fa',
+        likeblack: '#7b7c94',
       },
       fontFamily: {
-        heading: ['Lato', 'sans-serif'],
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Lato', 'sans-serif'],
+        // sans: ['Poppins', 'sans-serif'],
       },
     },
   },
