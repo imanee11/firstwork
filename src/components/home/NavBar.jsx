@@ -36,9 +36,9 @@ const NavBar = () => {
                 <div className="flex items-center space-x-4">
                     <button className="hover:shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] relative font-heading bg-transparent hover:bg-primary hover:text-white text-primary px-4 py-[1.6vh] border-[1px] border-likeblack rounded-xl font-semibold text-[14px] overflow-hidden group transition duration-300">
                         <span className="relative z-10">
-                            <a href="tel:+1234567890" className="flex gap-2 items-center">
+                            <a href="tel:+212745026956" className="flex gap-2 items-center">
                                 <FaPhone size={14} />
-                                <p className="hidden lg:block md:block">12 34 56 78 90</p>
+                                <p className="hidden lg:block md:block">07 45 02 69 56</p>
                             </a>
                         </span>
                     </button>
