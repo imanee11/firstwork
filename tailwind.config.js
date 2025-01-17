@@ -6,14 +6,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#483d89',
-        secondary: '#bc8fe5',
-        accent: '#f8f1fa',
-        likeblack: '#7b7c94',
+        primary: '#578E7E',
+        secondary: '#F5ECD5',
+        accent: '#FFFAEC',
+        likeblack: '#3D3D3D',
       },
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
+        // lato: ['Lato', 'sans-serif'],
         // sans: ['Poppins', 'sans-serif'],
+        // sans: ['Baloo Thambi 2', 'sans-serif'],
+        sans: ['"Baloo Thambi 2"', 'cursive'], 
+
       },
     },
   },

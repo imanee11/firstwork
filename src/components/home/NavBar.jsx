@@ -10,23 +10,32 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className="flex items-center justify-between px-[3vw] py-3 bg-white fixed left-0 right-0 top-0 z-50 ">
+            <nav className="flex items-center justify-between bg-white  px-[3vw] py-4  fixed left-0 right-0 top-0 z-50 rounded-md ">
                 {/* Left Section */}
                 <div className="flex items-center space-x-8">
-                    <img src={image.logo} alt="Logo" className="lg:w-[6vw] md:w-[8vw] w-[20vw]" />
+                    {/* <img src={image.logo} alt="Logo" className="lg:w-[6vw] md:w-[8vw] w-[20vw]" /> */}
+                    <p className='font-bold text-likeblack text-[18px]'><span className='text-primary'>AC</span> CENTER</p>
 
+
+                </div>
+
+                {/* Middle Section */}
+                <div>
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex space-x-10">
-                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                    <ul className="hidden md:flex space-x-8">
+                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">Home</a>
                         </li>
-                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                        <li className='text-likeblack/25'>|</li>
+                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">About</a>
                         </li>
-                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                        <li className='text-likeblack/25'>|</li>
+                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">Services</a>
                         </li>
-                        <li className="font-semibold text-[14px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
+                        <li className='text-likeblack/25'>|</li>
+                        <li className="font-semibold text-[15px] text-likeblack hover:text-primary transition duration-300 cursor-pointer">
                             <a href="">Contact</a>
                         </li>
                     </ul>
