@@ -13,7 +13,7 @@ const NavBar = () => {
             <nav className="flex items-center justify-between bg-white  px-[5vw] py-4  fixed left-0 right-0 top-0 z-50 ">
                 {/* Left Section */}
                 <div className="flex items-center space-x-[4vw]">
-                    <img src={image.logo2} alt="Logo" className="lg:w-[4vw] md:w-[8vw] w-[20vw]" />
+                    <img src={image.logo2} alt="Logo" className="lg:w-[4vw] md:w-[8vw] w-[15vw]" />
                     {/* <p className='font-bold text-likeblack text-[19px]'><span className='text-primary'>AC</span> CENTER</p> */}
 
                     {/* Desktop Menu */}
@@ -65,7 +65,7 @@ const NavBar = () => {
 
             {/* Mobile Menu */}
             {isMobileMenuOpen && (
-                <div className="md:hidden bg-white w-full shadow-lg space-y-4 py-4 px-6 fixed top-[3.5rem] left-0 z-40">
+                <div className="md:hidden bg-white w-full shadow-lg space-y-4 py-4 px-6 fixed top-[4.5rem] left-0 z-40">
                     <a href="" className="block text-[15px] font-semibold text-likeblack hover:text-primary transition duration-300">Home</a>
                     <a href="" className="block text-[15px] font-semibold text-likeblack hover:text-primary transition duration-300">About</a>
                     <a href="" className="block text-[15px] font-semibold text-likeblack hover:text-primary transition duration-300">Services</a>
