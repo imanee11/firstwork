@@ -28,16 +28,16 @@ const NavBar = () => {
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-8 font-baloo">
                         <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
-                            <a href="">Home</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
-                            <a href="">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
-                            <a href="">Services</a>
+                            <a href="#services">Services</a>
                         </li>
                         <li className="font-semibold text-[15px] text-likeblack hover:text-secondary transition duration-300 cursor-pointer">
-                            <a href="">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +83,7 @@ const NavBar = () => {
                 {/* Mobile Menu Links */}
                 <div className="flex flex-col space-y-6 pt-16 px-6">
                     <a
-                        href=""
+                        href="#home"
                         className="flex items-center gap-5 text-[18px] font-semibold text-likeblack hover:text-primary transition duration-300"
                     >
                         {/* <IoHome size={24} className="inline-block" /> */}
