@@ -9,3 +9,7 @@
     scroll-behavior: smooth;
     /* overflow-x: hidden; */  
 }
+
+.side{
+    z-index: 1000;
+}

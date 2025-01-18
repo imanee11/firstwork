@@ -5,8 +5,8 @@ import Main from '../components/home/Main';
 const Home = () => {
     return (
         <>
-            <div className='px-[5vw]'>
-                <NavBar />
+            <div className=''>
+                {/* <NavBar /> */}
                 <Main />
             </div>
 
